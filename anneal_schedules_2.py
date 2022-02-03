@@ -18,7 +18,7 @@ for i in range(n):
 
 bqm.offset = 4
 
-sampler = EmbeddingComposite(DWaveSampler())
+sampler = EmbeddingComposite(DWaveSampler(solver='Advantage_system4.1'))
 sampleset = sampler.sample(bqm, num_reads=1000)
 
 print(sampleset)

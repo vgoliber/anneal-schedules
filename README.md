@@ -1,4 +1,4 @@
-# anneal-schedules
+# Anneal Schedule Examples
 Basic examples of using anneal schedules.
 
 ## Contents

@@ -20,7 +20,7 @@ bqm.offset = 4
 
 print(bqm)
 
-sampler = EmbeddingComposite(DWaveSampler())
+sampler = EmbeddingComposite(DWaveSampler(solver='Advantage_system4.1'))
 sampleset = sampler.sample(bqm, num_reads=1000)
 
 print(sampleset)
